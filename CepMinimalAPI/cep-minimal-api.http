@@ -1,0 +1,8 @@
+@baseUrl = https://localhost:7012/cep
+@cep = 
+@token = 
+
+
+GET {{baseUrl}}/{{cep}}
+Authorization: Bearer {{token}}
+Content-Type: application/json
